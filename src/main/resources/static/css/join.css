@@ -14,7 +14,7 @@ input[type="text"], input[type="password"] {
     padding-left: 10px;
     background-color: rgb(233,233,233);
 }
-.btn {
+.loginBtn,.joinBtn {
     width: 263px;
     height: 32px;
     font-size: 15px;
@@ -24,7 +24,7 @@ input[type="text"], input[type="password"] {
     padding-left: 10px;
     background-color: rgb(164, 199, 255);
 }
-.btn:active {
+.loginBtn:active {
     width: 263px;
     height: 32px;
     font-size: 15px;
@@ -34,7 +34,7 @@ input[type="text"], input[type="password"] {
     padding-left: 10px;
     background-color: rgb(61, 135, 255);
 }
-.btn {
+.joinBtn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -42,9 +42,9 @@ input[type="text"], input[type="password"] {
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
-    border: none; /* 버튼의 기본 테두리 제거 */
-    cursor: pointer; /* 마우스를 올렸을 때 포인터로 변경 */
+    border: none;
+    cursor: pointer;
 }
-.btn:hover {
+.joinBtn:hover {
     background-color: #0056b3;
 }
